@@ -23,8 +23,7 @@ torch.manual_seed(42)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-st.title("🧠 SchizoScan AI – AI-Powered Insights for Mental Wellness.
-more like this")
+st.title("🧠 SchizoScan AI – AI-Powered Insights for Mental Wellness.")
 st.sidebar.header("Upload EEG Dataset")
 
 uploaded_file = st.sidebar.file_uploader("Upload EEG ZIP file", type=["zip"])
